@@ -7,7 +7,7 @@ const Techcards = props => {
   console.log(cardListItems)
   console.log(className)
   return (
-    <li className={`${className} card-container `}>
+    <li className="className">
       <h1 className="heading">{title}</h1>
       <p className="description">{description}</p>
       <img className="img" src={imgUrl} alt={title} />
